@@ -1,0 +1,10 @@
+.divBorder{
+    border-top: 1px solid black;
+}
+
+.divGray{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}

@@ -1,0 +1,116 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EDF3FD;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    height: 500px;
+    width: 850px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+}
+
+.divLeftInfo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgImgInfo{
+    background-image: url(./assets/img/bg-sidebar-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: 95%;
+    width: 90%;
+    
+    
+}
+
+.containerLeftInfo{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 40px;
+    gap: 15px;
+}
+
+#circle{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.textStep1{
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0;
+    color: white;
+}
+
+.textInfo1{
+    padding: 0;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+}
+
+.divRightInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+}
+
+
+.divBtnNext{
+    display: flex;
+    align-items: flex-end;
+   position: absolute;
+   top: 84%;
+   left: 65%;
+
+}
+
+#btnNext{
+    height: 45px;
+    width: 110px;
+    border-radius: 10px;
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+}
+
+.btnNext:hover{
+    background-color:  hsl(230, 98%, 25%);
+}
+
+.divBtnBack{
+    display: flex;
+    align-items: flex-end;
+   position: absolute;
+   top: 86%;
+   left: 45%;
+   color: hsl(213, 96%, 18%);
+   font-weight: 700;
+}

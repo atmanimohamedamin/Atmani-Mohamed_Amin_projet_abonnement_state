@@ -1,0 +1,27 @@
+
+.containerRightInfo{
+    
+    height: 95%;
+    width: 95%;
+    border-radius: 15px;
+}
+
+.titlePinfo{
+    color: hsl(213, 96%, 18%);
+    font-weight: 600;
+    font-size: 40px;
+    padding: 0;
+}
+
+.titleInformation{
+    color: hsl(213, 96%, 18%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.inputName{
+    border: 1px solid black;
+    height: 35px;
+    width: 450px;
+    border-radius: 10px;
+}
